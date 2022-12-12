@@ -1,0 +1,213 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/**/
+header {
+    transition: top 0,5s;
+    top: -50px;
+    margin: 0px;
+    padding: 0px;
+    position: flex;
+    background-color: #9131ff;
+}
+
+header a {
+    display: block;
+
+    margin: 0px;
+    padding: 45px 20px;
+     
+
+
+    font-size: 28px;
+    font-family:monospace;
+}
+
+header a:hover{
+    color: #dec5fc;
+    background-color: rgb(94, 0, 182)    ;
+    border-radius: 4px;
+    
+
+}
+
+
+/**/
+
+
+
+
+
+/*          nav         */
+#barra{
+    
+    padding: 0px;
+    margin: 0px;
+    
+    transition: top 0,5s;
+    top: -50px;
+}
+nav{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 190%;
+    font-family:monospace;
+}
+nav a {
+    color: aliceblue;
+    
+    text-align: center;
+}
+nav li {
+    
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul {
+    
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+/**/
+
+
+
+/*          prmeira parte         */
+.primeira-parte{
+    position: absolute;
+    background-color: #34125a ;
+    margin: 0px;
+    padding: 0px;
+    height: 721px;
+    width: 100%;
+
+}
+
+.Texto{
+    color: aliceblue;
+    margin-top: -22px;
+    padding-top: 0px;
+    margin-left: 1100px;
+    margin-right: 10px;
+}
+.Texto h1{
+    margin-top: 40px;
+}
+.Conhecimentos{
+    
+    color: aliceblue;
+    margin-top: -10px;
+    padding-top: 0px;
+    margin-left: 1100px;
+    margin-right: 10px;
+    text-align: justify;
+
+}
+
+/**/
+/*          corpo         */
+div{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.Corpo {
+    position:absolute;
+    height: 721px;
+    width: 1080px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/teahub.io-react-wallpaper-2965452.jpg");
+    image-rendering:optimizeQuality;
+}
+.Corpo h1{
+    margin-top: 100px;
+font-size: 510%;
+
+
+}
+.Corpo p{
+    font-size: 210%;
+    
+    
+    }
+
+/**/
+
+
+/*          texto         */
+
+.Texto{
+    text-align: justify;
+    font-size: 120%;
+}
+.Texto h1{
+    text-align: center;
+}
+
+.imagem{
+    height: 400px;
+    width: 400px;
+    margin-top: 1%;
+    margin-left: 1100px;
+}
+
+
+
+
+/**/
+
+
+/*          resumo         */
+.resumo {
+    
+    margin-top: 202px;
+    padding-top: 0px;
+    margin-left: 1100px;
+    margin-right: 10px;
+}
+/**/
+.test {
+    background-color: #47197a ;
+    margin-top: 47%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+}
+
+/*          footer       */
+
+footer{
+    background-color: #34125a;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    height: auto;
+    text-align: center;
+    font-size: 120%;
+    font-family:monospace;
+}
+footer a {
+    color: aliceblue;
+    
+    text-align: center;
+}
+footer li {
+    
+    list-style-type: none;
+    display: inline-block;
+}
+footer ul {
+    
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+/**/
